@@ -124,7 +124,7 @@ ul, ol {
 footer {
     display: flex;
     flex-direction: column;
-    align: center;
+    align-items: center;
     background-color: #ecf0f1;
     padding: 30px 20px;
     text-align: center;

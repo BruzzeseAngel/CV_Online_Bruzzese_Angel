@@ -4,7 +4,7 @@
 }
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 body {
@@ -54,9 +54,8 @@ main {
 
 #foto {
     display: block;
-    width: 100%;
-    max-width: 280px;
-    height: auto;
+    height: 100%;
+    max-height: 350px;
     margin: 0 auto 20px auto;
     border-radius: 10px;
 }
@@ -71,10 +70,6 @@ main {
 
 .tarjeta {
     border: 1px solid #d0e4eb;
-}
-
-.tema-destacado {
-    color: #e74c3c;
 }
 
 .titulo-seccion {
@@ -145,7 +140,6 @@ footer form {
     margin: 0 auto;
 }
 
-
 .redes-sociales {
     display: flex;
     flex-direction: row;
@@ -210,8 +204,8 @@ MEDIA QUERY 2 - TAMAÑO ESCRITORIO (+1024px)
     }
 
     main {
-        grid-template-columns: 2fr 1fr;
-        padding: 30px;
+        align-items: flex-start;
+        text-align: left;
     }
 
     #principal {

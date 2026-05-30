@@ -31,10 +31,6 @@ header {
     margin: 0;
 }
 
-h1, h2, h3, h4 {
-    color: red;
-}
-
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -168,7 +164,7 @@ MEDIA QUERY 1 - TAMAÑO TABLET (+768px)
     }
 
     h1 {
-        font-siza: 2.5rem;
+        font-size: 2.5rem;
     }
 
     main {
@@ -180,7 +176,7 @@ MEDIA QUERY 1 - TAMAÑO TABLET (+768px)
         grid-column: 1 / 3;
     }
 
-    #habilidade {
+    #habilidades {
         grid-column: 1 / 3;
     }
 
@@ -199,8 +195,8 @@ MEDIA QUERY 2 - TAMAÑO ESCRITORIO (+1024px)
 @media (min-width: 1024px) {
 
     header {
-        align-items: flex-start;
-        text-align: left;
+        align-items: center;
+        text-align: center;
     }
 
     main {

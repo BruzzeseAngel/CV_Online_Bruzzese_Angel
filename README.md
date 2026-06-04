@@ -21,4 +21,9 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 
 git add . <br>
+(sin salida)
+
+git commit -m "Se realiza commit de prueba para ejercicio" <br>
+[main 2dcd9df] Se realiza commit de prueba para ejercicio
+1 file changed, 6 insertions(+), 1 deletion(-)
 

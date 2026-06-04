@@ -3,7 +3,7 @@ Se agregó el archivo app.js con la funcionalidad de scroll suave
 Comando	        Definición breve <br>
 git --version	Muestra la versión instalada de Git <br>
 git init	    Inicializa un repositorio en la carpeta actual <br>
-git add	        Agrega cambios al área de preparación (staging) <br>
+git add	.       Agrega todos los cambios al área de preparación <br>
 git commit	    Registra los cambios con un mensaje descriptivo <br>
 git status	    Muestra el estado del repositorio <br>
 
@@ -15,5 +15,10 @@ git init <br>
 Reinitialized existing Git repository in C:/Users/bruzz/Desktop/Bootcamp/Modulo_2/Ejercicios/CV_Online_Bruzzese_Angel_Github/.git/ <br>
 
 git status <br>
+On branch main
+Your branch is up to date with 'origin/main'.
 
+nothing to commit, working tree clean
+
+git add . <br>
 

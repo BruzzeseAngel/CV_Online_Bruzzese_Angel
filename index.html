@@ -8,16 +8,15 @@
     <title>CV Online</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <link href="assets/css/style.css" rel="stylesheet">
 
   </head>
   <!-- BODY - Información importante para el usuario -->
   <body>
-    <header id="inicio">
-      <p>CV Online - Angel Bruzzese</p>
-      <p>Estudiante de Ing. Informática y FullStack Developer JS</p>
+    <header id="inicio" class="bg-dark text-white text-center py-4 px-3">
+      <p class="h2 mb-2">CV Online - Angel Bruzzese</p>
+      <p class="lead mb-0">Estudiante de Ing. Informática y FullStack Developer JS</p>
     </header>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
@@ -29,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#acerca-de-mi">Acerca de Mi</a>
-            <a class="nav-link" href="#dirección">Dirección</a>
+            <a class="nav-link" href="#direccion">Dirección</a>
             <a class="nav-link" href="#experiencia">Experiencia</a>
             <a class="nav-link" href="#idiomas">Idiomas</a>
             <a class="nav-link" href="#estudios">Estudios</a>
@@ -41,101 +40,132 @@
       </div>
     </nav>
 
-    <main>
-      <section id="principal">
-        <img id="foto" src="assets/img/Foto_CV.png" alt="Foto de perfil de Angel Bruzzese">
-        <h1>Angel José Ignacio Bruzzese Araya</h1>
-        <p>Curriculum Vitae</p>
-        <h2 id="acerca-de-mi">Acerca de Mi</h2>
-        <p>Soy un estudiante de <strong>ingeniería informática</strong> en el instituto IPLACEX. Actualmente me encuentro cursando el Bootcamp de Desarrollador FullStack JavaScript realizado por Talento Digital (SENCE). Cuento con experiencia <em>JavaScript y Python</em>.</p>
-        <h2 id="dirección">Dirección</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.3033185595858!2d-71.60486599352802!3d-33.59017980121422!2m3!1f0!2f0!3f0!2m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966238f0d92033ab%3A0x1578e9d583049813!2sGimnasio%20Jos%C3%A9%20Rojas%20Zamora%20-%20Ex%20Montemar!5e0!3m2!1ses!2scl!4v1779845279923!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </section>
+    <div class="container my-4">
+      <div class="row g-4">
+        <main class="col-12 col-md-8">
+          <section id="principal">
+            <img class="foto-perfil img-fluid rounded-circle d-block mx-auto mb-3" src="./assets/img/Foto_CV.png" alt="Foto de perfil de Angel Bruzzese">
 
-      <section id="experiencia" class="tarjeta">
-        <h2>Experiencia Laboral</h2>
-        <h3>Bombero de estación de servicio - COPEC (San Antonio)</h3>
-        <p>Mayo 2026 - Actualidad<br>Manejo de combustibles y protocolos de seguridad, mantención y orden de áreas operativas y atención directa a clientes  </p>
+            <h1>Angel José Ignacio Bruzzese Araya</h1>
 
-        <h3>Bodeguero - JAVER (San Antonio)</h3>
-        <p>Junio 2025 - Abril 2026<br>Carga y descarga de mercadería, control de inventario y organización de bodega.</p>
+            <p>Curriculum Vitae</p>
+            <h2 id="acerca-de-mi">Acerca de Mi</h2>
+            <p>Soy un estudiante de <strong>ingeniería informática</strong> en el instituto IPLACEX. Actualmente me encuentro cursando el Bootcamp de Desarrollador FullStack JavaScript realizado por Talento Digital (SENCE). Cuento con experiencia <em>JavaScript y Python</em>.</p>
 
-        <h3>Administrador hotelero - "La Casa de Jose" (San Pedro de Atacama) </h3>
-        <p>Marzo 2022 - Noviembre 2024<br>Gestión de reservas, procesos de check-in y atención personalizada de huéspedes</p>
+            <h2 id="direccion" class="h3 mt-4 mb-3">Dirección</h2>
+            <div class="ratio ratio-16x9 rounded overflow-hidden">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.3033185595858!2d-71.60486599352802!3d-33.59017980121422!2m3!1f0!2f0!3f0!2m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966238f0d92033ab%3A0x1578e9d583049813!2sGimnasio%20Jos%C3%A9%20Rojas%20Zamora%20-%20Ex%20Montemar!5e0!3m2!1ses!2scl!4v1779845279923!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </section>
 
-        <h3>Coordinador de técnicos - SISCARD SA (Córdoba) </h3>
-        <p>Mayo 2018 - Diciembre 2021<br>Coordinación diaria de un equipo de 17 técnicos en terreno con el fin de supervisar del cumplimiento de tareas, tiempo de ejecución y calidad del servicio</p>
-      </section>
+          <section id="experiencia" class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h2 class="card-title h3 mb-4">Experiencia Laboral</h2>
 
-      <section id="estudios" class="tarjeta">
-        <h2>Estudios Superiores</h2>
+              <h3 class="h5 mt-3">Bombero de estación de servicio - COPEC (San Antonio)</h3>
+              <p>Mayo 2026 - Actualidad<br>Manejo de combustibles y protocolos de seguridad, mantención y orden de áreas operativas y atención directa a clientes  </p>
 
-        <h3>Ingeniería Informática</h3>
-        <p>Instituto Profesional Latinoamericano de Comercio Exterior <em>(IPLACEX)</em> <br>2024 - Actualidad <strong>(En curso)</strong></p>
+              <h3 class="h5 mt-3">Bodeguero - JAVER (San Antonio)</h3>
+              <p>Junio 2025 - Abril 2026<br>Carga y descarga de mercadería, control de inventario y organización de bodega.</p>
 
-        <h3>Ingeniería Electrónica</h3>
-        <p>Universidad Tecnológica Nacional – Facultad Regional Córdoba. <br>2014 - 2018 <strong>(Incompleta)</strong></p>
-      </section>
+              <h3 class="h5 mt-3">Administrador hotelero - "La Casa de Jose" (San Pedro de Atacama) </h3>
+              <p>Marzo 2022 - Noviembre 2024<br>Gestión de reservas, procesos de check-in y atención personalizada de huéspedes</p>
 
-      <aside id="panel-lateral" class="tarjeta">
-        <h3 id="idiomas">Idiomas</h3>
-        <table class="table table-hover">
-          <tr>
-            <th>Idioma</th>
-            <th>Lectura</th>
-            <th>Escritura</th>
-            <th>Conversación</th>
-          </tr>
-          <tr>
-            <td>Español</td>
-            <td>Nativo</td>
-            <td>Nativo</td>
-            <td>Nativo</td>
-          </tr>
-          <tr>
-            <td>Inglés</td>
-            <td>Intermedio</td>
-            <td>Intermedio</td>
-            <td>Intermedio</td>
-          </tr>
-          <tr>
-            <td>Portugues</td>
-            <td>Básico</td>
-            <td>Básico</td>
-            <td>Básico</td>
-          </tr>
-        </table>
-      </aside>
+              <h3 class="h5 mt-3">Coordinador de técnicos - SISCARD SA (Córdoba) </h3>
+              <p>Mayo 2018 - Diciembre 2021<br>Coordinación diaria de un equipo de 17 técnicos en terreno con el fin de supervisar del cumplimiento de tareas, tiempo de ejecución y calidad del servicio</p>
+            </div>
+          </section>
 
-      <section id="habilidades" class="tarjeta">
-        <h2>Habilidades Técnicas & Blandas</h2>
-        <h3>Técnicas</h3>
+          <section id="estudios" class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h2 class="card-title h3 mb-4">Estudios Superiores</h2>
 
-        <p>Dispongo de diplomados en:</p>
-        <ul>
-          <li>Sistemas Operativos y Contenedores</li>
-          <li>Desarrollo de Aplicaciones</li>
-          <li>Diseño Frontend</li>
-          <li>Bases de Datos</li>
-        </ul>
-        <p>Dispongo de certificaciones en:</p>
-        <ul>
-            <li>Diseño Web Adaptativo</li>
-            <li>Algoritmos y estructuras de datos de JavaScript</li>
-        </ul>
+              <h3 class="h5 mt-3">Ingeniería Informática</h3>
+              <p>Instituto Profesional Latinoamericano de Comercio Exterior <em>(IPLACEX)</em> <br>2024 - Actualidad <strong>(En curso)</strong></p>
 
-        <h3>Blandas</h3>
+              <h3  class="h5 mt-3">Ingeniería Electrónica</h3>
+              <p>Universidad Tecnológica Nacional – Facultad Regional Córdoba. <br>2014 - 2018 <strong>(Incompleta)</strong></p>
+            </div>
+          </section>
 
-        <p>Me esfuerzo por crecer en las áreas TI.</p>
-        <ol>
-          <li>Trabajo en equipo </li>
-          <li>Resolución de problemas</li>
-          <li>Adaptabilidad</li>
-        </ol>
+          <section id="habilidades" class="tarjeta">
+            <h2>Habilidades Técnicas & Blandas</h2>
+            <h3>Técnicas</h3>
 
-      </section>
-    </main>
+            <p>Dispongo de diplomados en:</p>
+
+            <ul class="list-group mb-4">
+              <li class="list-group-item">Sistemas Operativos y Contenedores</li>
+              <li class="list-group-item">Desarrollo de Aplicaciones</li>
+              <li class="list-group-item">Diseño Frontend</li>
+              <li class="list-group-item">Bases de Datos</li>
+            </ul>
+            <p>Dispongo de certificaciones en:</p>
+            <ul class="list-group mb-4">
+              <li class="list-group-item">Diseño Web Adaptativo</li>
+              <li class="list-group-item">Algoritmos y estructuras de datos de JavaScript</li>
+            </ul>
+
+            <h3 class="h4 mt-4">Tecnologías</h3>
+
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="badge rounded-pill text-bg-warning">JavaScript</span>
+              <span class="badge rounded-pill text-bg-primary">Python</span>
+              <span class="badge rounded-pill text-bg-danger">HTML5</span>
+              <span class="badge rounded-pill text-bg-info">CSS3</span>
+              <span class="badge rounded-pill text-bg-secondary">SQL</span>
+              <span class="badge rounded-pill text-bg-dark">Git</span>
+            </div>
+
+            <h3>Blandas</h3>
+
+            <p>Me esfuerzo por crecer en las áreas TI.</p>
+            <ol class="list-group list-group-numbered mb-4">
+              <li class="list-group-item">Trabajo en equipo </li>
+              <li class="list-group-item">Resolución de problemas</li>
+              <li class="list-group-item">Adaptabilidad</li>
+            </ol>
+
+          </section>
+        </main>
+
+        <aside id="panel-lateral" class="col-12 col-md-4">
+          <section class="card shadow-sm">
+            <div class="card-body">
+              <h2 id="idiomas" class="card-title h3 mb-3">Idiomas</h2>
+
+              <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                  <tr>
+                    <th>Idioma</th>
+                    <th>Lectura</th>
+                    <th>Escritura</th>
+                    <th>Conversación</th>
+                  </tr>
+                  <tr>
+                    <td>Español</td>
+                    <td>Nativo</td>
+                    <td>Nativo</td>
+                    <td>Nativo</td>
+                  </tr>
+                  <tr>
+                    <td>Inglés</td>
+                    <td>Intermedio</td>
+                    <td>Intermedio</td>
+                    <td>Intermedio</td>
+                  </tr>
+                </table>
+              </div>
+
+            </div>
+          </section>
+
+        </aside>
+
+      </div>
+    </div>
+
 
     <footer>
       <h4 id="contacto">Contáctame</h4>
@@ -179,6 +209,7 @@
         <button class="btn btn-primary" id="btn-ir_arriba" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><!-- Icon from Plump color icons by Streamline - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke-width="3"><path fill="#8fbffa" d="M44.955 36.842c-.107-1.826-1.534-2.972-3.36-3.061c-2.741-.135-7.942-.281-17.595-.281s-14.854.146-17.594.28c-1.827.09-3.254 1.236-3.361 3.062A28 28 0 0 0 3 38.5c0 .63.017 1.18.045 1.658c.107 1.826 1.534 2.972 3.36 3.061c2.741.135 7.942.281 17.595.281s14.854-.146 17.594-.28c1.827-.09 3.254-1.236 3.361-3.062q.043-.713.045-1.658c0-.63-.017-1.18-.045-1.658"/><path fill="#8fbffa" fill-rule="evenodd" d="M23.366 17.088a1 1 0 0 1 1.267 0l12.386 10.133c.984.804 2.309 1.112 3.432.52c.705-.373 1.508-.9 2.215-1.622c.718-.733 1.24-1.566 1.606-2.293c.568-1.132.256-2.453-.58-3.404C38.279 14.255 31.03 7.985 26.29 4.862c-1.419-.935-3.208-1.031-4.655-.14c-4.741 2.916-11.944 9.506-17.33 15.697c-.832.955-1.145 2.275-.576 3.407c.366.727.888 1.56 1.606 2.293a9 9 0 0 0 2.215 1.62c1.123.594 2.448.286 3.431-.518z" clip-rule="evenodd"/><path stroke="#2859c5" stroke-linecap="round" stroke-linejoin="round" d="M44.955 36.842c-.107-1.826-1.534-2.972-3.36-3.061c-2.741-.135-7.942-.281-17.595-.281s-14.854.146-17.594.28c-1.827.09-3.254 1.236-3.361 3.062A28 28 0 0 0 3 38.5c0 .63.017 1.18.045 1.658c.107 1.826 1.534 2.972 3.36 3.061c2.741.135 7.942.281 17.595.281s14.854-.146 17.594-.28c1.827-.09 3.254-1.236 3.361-3.062q.043-.713.045-1.658c0-.63-.017-1.18-.045-1.658"/><path stroke="#2859c5" stroke-linecap="round" stroke-linejoin="round" d="M23.366 17.088a1 1 0 0 1 1.267 0l12.386 10.133c.984.804 2.309 1.112 3.432.52c.705-.373 1.508-.9 2.215-1.622c.718-.733 1.24-1.566 1.606-2.293c.568-1.132.256-2.453-.58-3.404C38.279 14.255 31.03 7.985 26.29 4.862c-1.419-.935-3.208-1.031-4.655-.14c-4.741 2.916-11.944 9.506-17.33 15.697c-.832.955-1.145 2.275-.576 3.407c.366.727.888 1.56 1.606 2.293a9 9 0 0 0 2.215 1.62c1.123.594 2.448.286 3.431-.518z" clip-rule="evenodd"/></g></svg></button>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
